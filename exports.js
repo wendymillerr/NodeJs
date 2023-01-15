@@ -1,0 +1,1 @@
+module.exports= " estou exportando meu módulo"
