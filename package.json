@@ -1,0 +1,22 @@
+{
+  "name": "nomepacote",
+  "version": "1.0.0",
+  "description": "aprendendo node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendymillerr/NodeJs.git"
+  },
+  "author": "\"\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendymillerr/NodeJs/issues"
+  },
+  "homepage": "https://github.com/wendymillerr/NodeJs#readme",
+  "devDependencies": {
+    "cfonts": "^3.1.1"
+  }
+}
