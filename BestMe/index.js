@@ -29,3 +29,26 @@ process.stdin.on("data", data => {
     
 })//"data" ele esta ouvindo quando tiver dados, e toda vez que for inserido dados ele vai rodar uma função
 
+
+process.on('exit', () =>{
+    console.log(`
+        Olá, wendy
+
+        o que vc aprendeu hoje foi:
+        ${answers[0]}
+
+        o que te aborreceu:
+        ${answers[1]}
+
+        o que voce pode melhorar:
+        ${answers[2]}
+        
+        o que me deixou feliz hoje?
+        ${answers[3]}
+        
+        quantas pessoas eu ajudei?
+        ${answers[4]}
+    
+    
+    `)
+})
