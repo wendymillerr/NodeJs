@@ -18,5 +18,8 @@
   "homepage": "https://github.com/wendymillerr/NodeJs#readme",
   "devDependencies": {
     "cfonts": "^3.1.1"
+  },
+  "dependencies": {
+    "moment": "^1.5.1"
   }
 }
