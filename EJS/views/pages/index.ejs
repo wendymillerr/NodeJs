@@ -10,7 +10,14 @@
             <p>Vamos aprender a trabalhar com arquivos EJS</p>
         </div>
     </main>
-
+    <ul>
+       <% qualitys.forEach(function(a){ %>
+            <li>
+                <strong> <%= a.tittle %> </strong> <%= a.message %>
+            </li>
+       <% }) %>
+            
+    </ul>
     <%- include('../partials/footer'); %>
 </body>
 
